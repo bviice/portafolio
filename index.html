@@ -11,6 +11,7 @@
         h1, h2, h3 { color: #2c3e50; }
         header h1 { color: #fff; margin-bottom: 5px; }
         .section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .project { border-left: 4px solid #3498db; padding-left: 15px; margin-bottom: 20px; }
         .case-study { background: #e8f4f8; padding: 20px; border-radius: 5px; border-left: 4px solid #2980b9; }
         a { color: #3498db; text-decoration: none; }
     </style>
@@ -26,8 +27,20 @@
         <div class="section">
             <h2>Mis Proyectos</h2>
             
-            <div class="case-study">
-                <h3>SpringEduManager</h3>
+            <!-- Proyectos breves -->
+            <div class="project">
+                <h3>1. API Billetera Digital</h3>
+                <p>Desarrollo de una API RESTful para la gestión de transacciones financieras, control de saldos y transferencias seguras entre usuarios utilizando Java y bases de datos relacionales.</p>
+            </div>
+
+            <div class="project">
+                <h3>2. Conversor de Divisas Orientado a Objetos</h3>
+                <p>Aplicación desarrollada en Java puro (POO) que consume una API externa para calcular tasas de cambio de monedas en tiempo real.</p>
+            </div>
+
+            <!-- Caso de estudio principal -->
+            <div class="project case-study">
+                <h2>3. Caso de Estudio Destacado: SpringEduManager</h2>
                 <p><strong>Descripción:</strong> Desarrollo de una aplicación web interna para digitalizar y centralizar el registro de estudiantes de un bootcamp tecnológico.</p>
                 <p><strong>Desafío principal:</strong> Migrar la gestión tradicional basada en hojas de cálculo hacia un sistema web seguro que diferenciara los permisos de escritura y lectura entre administradores y usuarios comunes.</p>
                 <p><strong>Solución propuesta:</strong> Implementación de una arquitectura MVC con un sistema de autenticación por roles (ADMIN y USER) y una base de datos en memoria para el acceso persistente a la información.</p>
